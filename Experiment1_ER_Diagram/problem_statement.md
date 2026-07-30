@@ -166,7 +166,7 @@ A popular restaurant wants to manage reservations, orders, and billing.
 
 ---
 
-done by:IMESHA S,212225040131
+done by:IMESHA S,212225040131.
 
 ## Instructions for Students
 
