@@ -104,124 +104,132 @@ CREATE TABLE Table_Name (
 ```
 
 **Question 1**
---
--- Paste Question 1 here
-
-```sql
--- Paste your SQL code below for Question 1
+<img width="1207" height="475" alt="image" src="https://github.com/user-attachments/assets/f3c98f27-2311-4f3b-8191-b2cc003de84f" />
+```
+CREATE TABLE products(product_id INTEGER PRIMARY KEY,product_name TEXT NOT NULL,list_price DECIMAL(10,2) NOT NULL,discount DECIMAL(10,2) NOT NULL DEFAULT 0,CHECK(list_price>=discount ANd discount >=0 AND list_price>=0));
 ```
 
 **Output:**
 
-![Output1](output.png)
+<img width="1208" height="368" alt="image" src="https://github.com/user-attachments/assets/6e541747-c012-4fb5-b1b3-8ab129cb31be" />
+
 
 **Question 2**
----
--- Paste Question 2 here
+<img width="990" height="415" alt="image" src="https://github.com/user-attachments/assets/5864b54b-6e7b-4bf9-b803-c889806120a2" />
 
-```sql
--- Paste your SQL code below for Question 2
 ```
-
+CREATE TABLE orders(OrderID INTEGER ,OrderDate TEXT,CustomerID INTEGER);
+```
 **Output:**
 
-![Output2](output.png)
+<img width="1237" height="466" alt="image" src="https://github.com/user-attachments/assets/354c0822-8f05-4851-8e76-557b8e7bab45" />
+
 
 **Question 3**
----
--- Paste Question 3 here
-
-```sql
--- Paste your SQL code below for Question 3
+<img width="1065" height="387" alt="image" src="https://github.com/user-attachments/assets/d9327792-cb89-4e30-9d48-a755854c99bd" />
+```
+CREATE TABLE Events(EventID INTEGER , EventName TEXT, EventDate DATE);
 ```
 
 **Output:**
 
-![Output3](output.png)
+<img width="1240" height="448" alt="image" src="https://github.com/user-attachments/assets/a138ecf1-e949-42cb-9db9-61694f421df0" />
+
 
 **Question 4**
----
--- Paste Question 4 here
-
-```sql
--- Paste your SQL code below for Question 4
+<img width="1212" height="521" alt="image" src="https://github.com/user-attachments/assets/020a03f9-4afc-4d52-9f4e-7347e08b3393" />
+```
+INSERT INTO Products(ProductID,Name,Category,Price,Stock) VALUES(106,'Fitness Tracker','Wearables',NULL,NULL);
+INSERT INTO Products(ProductID,Name,Category,Price,Stock) VALUES(107,'Laptop','Electronics',999.99,50);
+INSERT INTO Products(ProductID,Name,Category,Price,Stock) VALUES(108,'Wireless Earbuds','Accessories',NULL,100);
 ```
 
 **Output:**
 
-![Output4](output.png)
+<img width="1228" height="376" alt="image" src="https://github.com/user-attachments/assets/5dcf0b69-9074-4a82-b10e-759cb7783ce5" />
+
 
 **Question 5**
----
--- Paste Question 5 here
 
-```sql
--- Paste your SQL code below for Question 5
+
+
+<img width="1197" height="607" alt="image" src="https://github.com/user-attachments/assets/a904f9c3-a25a-410a-b300-c8a6eec95025" />
+
 ```
-
+ALTER TABLE Student_details ADD COLUMN State TEXT;
+```
 **Output:**
 
-![Output5](output.png)
+
+<img width="1225" height="446" alt="image" src="https://github.com/user-attachments/assets/a8fea1d1-62cc-404a-adce-e7b76e741c67" />
+
 
 **Question 6**
----
--- Paste Question 6 here
 
-```sql
--- Paste your SQL code below for Question 6
+<img width="1161" height="368" alt="image" src="https://github.com/user-attachments/assets/93b69394-2ec2-4a74-aa9c-1bf086e86923" />
+```
+ALTER TABLE employee ADD COLUMN first_name varchar(50);
+ALTER TABLE employee ADD COLUMN last_name varchar(50);
 ```
 
 **Output:**
 
-![Output6](output.png)
+
+<img width="1232" height="408" alt="image" src="https://github.com/user-attachments/assets/b88fcb0b-571e-413c-96fd-192e2471476c" />
+
 
 **Question 7**
----
--- Paste Question 7 here
 
-```sql
--- Paste your SQL code below for Question 7
+<img width="1052" height="468" alt="image" src="https://github.com/user-attachments/assets/775eb880-b8cf-44a0-8126-a6e53c93bc5a" />
+```
+CREATE TABLE Reviews(ReviewID INTEGER,ProductID INTEGER,Rating REAL,ReviewText TEXT);
 ```
 
 **Output:**
 
-![Output7](output.png)
+
+<img width="1223" height="486" alt="image" src="https://github.com/user-attachments/assets/a8d128f4-86b3-4e28-a3b4-e296ab8bb3f7" />
+
 
 **Question 8**
----
--- Paste Question 8 here
 
-```sql
--- Paste your SQL code below for Question 8
+<img width="1013" height="498" alt="image" src="https://github.com/user-attachments/assets/3d178761-04de-4a13-9966-a780808994b3" />
+
 ```
-
+INSERT INTO Student_details SELECT * FROM Archived_students;
+```
 **Output:**
 
-![Output8](output.png)
+
+<img width="1236" height="378" alt="image" src="https://github.com/user-attachments/assets/4862f51a-ba3a-4690-ac1e-5cc95e4d71b1" />
+
 
 **Question 9**
----
--- Paste Question 9 here
 
-```sql
--- Paste your SQL code below for Question 9
+<img width="1202" height="503" alt="image" src="https://github.com/user-attachments/assets/234c05c7-1051-4344-9801-b3bf7bacdaf1" />
 ```
-
+INSERT INTO Employee(EmployeeID,Name,Position,Department,Salary)VALUES(5,'George Clark','Consultant',NULL,NULL);
+INSERT INTO Employee(EmployeeID,Name,Position,Department,Salary)VALUES(7,'Noah Davis','Manager','HR',60000);
+INSERT INTO Employee(EmployeeID,Name,Position,Department,Salary)VALUES(8,'Ava Miller','Consultant','IT',NULL);
+```
 **Output:**
 
-![Output9](output.png)
+
+<img width="1231" height="387" alt="image" src="https://github.com/user-attachments/assets/70ea3b78-348f-49d0-8f31-9346deee8b63" />
 
 **Question 10**
----
--- Paste Question 10 here
 
-```sql
--- Paste your SQL code below for Question 10
+<img width="1227" height="387" alt="image" src="https://github.com/user-attachments/assets/3eb9cc9d-ffa1-48fe-8c17-c8b8f24e1908" />
+
+```
+CREATE TABLE contacts(contact_id INTEGER PRIMARY KEY,first_name TEXT NOT NULL,last_name TEXT NOT NULL,email TEXT,phone TEXT NOT NULL,CHECK (LENGTH(phone)>=10));
 ```
 
 **Output:**
 
-![Output10](output.png)
+
+<img width="1228" height="416" alt="image" src="https://github.com/user-attachments/assets/fbb8f29a-0f42-4420-b6c1-2b06caa77290" />
+
 
 
 ## RESULT
