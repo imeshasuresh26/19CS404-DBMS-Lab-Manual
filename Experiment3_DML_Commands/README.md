@@ -47,20 +47,24 @@ SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
 <img width="913" height="208" alt="image" src="https://github.com/user-attachments/assets/f98b68a0-8886-4f26-b40a-cffcd0184b2d" />
+
 ```
 DELETE FROM Doctors WHERE doctor_id=1;
 ```
+
 **Output:**
 
 <img width="1223" height="351" alt="image" src="https://github.com/user-attachments/assets/237d4ed1-2b17-4627-a04c-6ce42f2a6690" />
 
 
 **Question 2**
+
 <img width="798" height="116" alt="image" src="https://github.com/user-attachments/assets/b97677ae-1c2e-4dd6-985d-e529d07f428e" />
 
 ```
 UPDATE Customer SET grade =5 WHERE city ='Chennai';
 ```
+
 **Output:**
 
 <img width="1232" height="553" alt="image" src="https://github.com/user-attachments/assets/804cdb7f-61d5-4548-8b41-93b5ee4063e8" />
@@ -69,6 +73,8 @@ UPDATE Customer SET grade =5 WHERE city ='Chennai';
 **Question 3**
 
 <img width="1232" height="645" alt="image" src="https://github.com/user-attachments/assets/89f4fafa-3c73-432b-b534-e364a3ef2ce4" />
+
+
 ```
 SELECT * FROM orders WHERE ord_date <> '2012-08-17' AND NOT (CUSTOMER_ID > 3005 AND purch_amt < 1000);
 ```
@@ -82,6 +88,8 @@ SELECT * FROM orders WHERE ord_date <> '2012-08-17' AND NOT (CUSTOMER_ID > 3005 
 **Question 4**
 
 <img width="1183" height="513" alt="image" src="https://github.com/user-attachments/assets/196c7c32-941a-4787-a226-9d9f38f25c8c" />
+
+
 ```
 UPDATE Products SET reorder_lvl =20 WHERE quantity < 10 AND category = 'Snacks';
 ```
@@ -94,6 +102,8 @@ UPDATE Products SET reorder_lvl =20 WHERE quantity < 10 AND category = 'Snacks';
 **Question 5**
 
 <img width="1223" height="577" alt="image" src="https://github.com/user-attachments/assets/7a116853-dd9e-49af-9a66-7ca288fe7d61" />
+
+
 ```
 SELECT
       product_id,
@@ -114,6 +124,8 @@ WHERE
 **Question 6**
 
 <img width="916" height="227" alt="image" src="https://github.com/user-attachments/assets/b38ffc5e-e85c-4572-a244-2b111097652a" />
+
+
 ```
 UPDATE products 
 SET availability = availability*2
@@ -129,6 +141,7 @@ WHERE product_id = 1;
 
 <img width="1228" height="523" alt="image" src="https://github.com/user-attachments/assets/1a6fe4a9-b4ed-448b-99e3-1614279821b4" />
 
+
 ```
 DELETE FROM customer WHERE CUST_CITY != 'New York' AND OUTSTANDING_AMT > 5000;
 ```
@@ -141,6 +154,8 @@ DELETE FROM customer WHERE CUST_CITY != 'New York' AND OUTSTANDING_AMT > 5000;
 **Question 8**
 
 <img width="1235" height="703" alt="image" src="https://github.com/user-attachments/assets/6aad45df-ef99-4ae8-a31b-a67c49f53a97" />
+
+
 ```
 DELETE FROM customer  WHERE GRADE < 2;
 ```
@@ -154,6 +169,7 @@ DELETE FROM customer  WHERE GRADE < 2;
 
 <img width="1171" height="612" alt="image" src="https://github.com/user-attachments/assets/757e622a-f475-475a-a004-39d79dce679c" />
 
+
 ```
 SELECT product_id,original_price,discount_percentage,(original_price *(1- discount_percentage)) AS discounted_price FROM Products WHERE discount_percentage >0 ORDER BY discounted_price ASC;
 ```
@@ -165,6 +181,8 @@ SELECT product_id,original_price,discount_percentage,(original_price *(1- discou
 **Question 10**
 
 <img width="1230" height="652" alt="image" src="https://github.com/user-attachments/assets/a28d4b42-621a-449c-9049-ae5d6433238e" />
+
+
 ```
 UPDATE employees SET salary=salary*2 WHERE department_id =20 AND job_id LIKE '%MAN';
 ```
