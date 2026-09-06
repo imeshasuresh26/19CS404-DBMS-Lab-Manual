@@ -60,8 +60,13 @@ Key Differences:
 - Use `DBMS_OUTPUT.PUT_LINE` to display the result.
 - Call the procedure with a number as input.
 
+### Program
+<img width="1000" height="335" alt="image" src="https://github.com/user-attachments/assets/bdaebbea-36df-4bd7-acaa-e6be4c2c1ad9" />
+
 **Expected Output:**  
 Square of 6 is 36
+
+<img width="676" height="406" alt="image" src="https://github.com/user-attachments/assets/9f4fc367-b117-4da8-a433-73498b7994a9" />
 
 ---
 
@@ -73,9 +78,15 @@ Square of 6 is 36
 - Use a loop to calculate the factorial.
 - Return the result using the `RETURN` statement.
 - Call the function using a `SELECT` statement or in an anonymous block.
+ ### Program
+
+ <img width="791" height="321" alt="image" src="https://github.com/user-attachments/assets/ae45083a-ce5b-4c36-a73e-fe0db6e31c05" />
 
 **Expected Output:**  
 Factorial of 5 is 120
+
+
+<img width="640" height="302" alt="image" src="https://github.com/user-attachments/assets/32929ab2-d7a8-4218-8e2a-d8b4a1a73d1e" />
 
 ---
 
@@ -87,8 +98,13 @@ Factorial of 5 is 120
 - Use the `MOD` function to check if the number is divisible by 2.
 - Display whether it is Even or Odd using `DBMS_OUTPUT.PUT_LINE`.
 
+### Program
+
+<img width="912" height="437" alt="image" src="https://github.com/user-attachments/assets/3dc53ccc-47c1-45f7-bd05-87f335678098" />
+
 **Expected Output:**  
 12 is Even
+<img width="731" height="437" alt="image" src="https://github.com/user-attachments/assets/24d5e5ac-43b1-4163-97dc-ccb1a9531ef3" />
 
 ---
 
@@ -101,8 +117,13 @@ Factorial of 5 is 120
 - Return the reversed number.
 - Call the function and display the output.
 
+### Program
+<img width="850" height="391" alt="image" src="https://github.com/user-attachments/assets/c763636f-11e7-4bbc-ab64-216a0fc9e93d" />
+
 **Expected Output:**  
 Reversed number of 1234 is 4321
+
+<img width="532" height="287" alt="image" src="https://github.com/user-attachments/assets/32e0d4d1-d4da-40cf-a30b-3cfb21c4693f" />
 
 ---
 
@@ -113,6 +134,8 @@ Reversed number of 1234 is 4321
 - Accept an input number.
 - Use a loop from 1 to 10 to multiply the input number.
 - Display the multiplication results using `DBMS_OUTPUT.PUT_LINE`.
+### Program
+<img width="1017" height="401" alt="image" src="https://github.com/user-attachments/assets/bc2de349-0602-43ff-8a9a-83fae5984584" />
 
 **Expected Output:**  
 Multiplication table of 5:  
@@ -121,6 +144,7 @@ Multiplication table of 5:
 5 x 3 = 15  
 ...  
 5 x 10 = 50
+<img width="745" height="517" alt="image" src="https://github.com/user-attachments/assets/de72f854-105b-4173-980e-edba2e6eff46" />
 
 ## RESULT
 Thus, the PL/SQL programs using procedures and functions were written, compiled, and executed successfully.
