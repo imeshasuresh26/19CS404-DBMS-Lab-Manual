@@ -76,10 +76,12 @@ END;
 - Use a simple cursor to fetch and display employee names and designations.
 - Implement exception handling to catch the relevant exceptions and display appropriate messages.
 
-**Output:**  
-The program should display the employee details or an error message.
+### PROGRAM
 
----
+<img width="665" height="426" alt="image" src="https://github.com/user-attachments/assets/0c2fefce-45bd-48ba-9d38-c62f4a487877" />
+
+**Output:**  
+<img width="591" height="260" alt="image" src="https://github.com/user-attachments/assets/0f56b3c7-6977-460f-89f4-d047c46ac556" />
 
 ### **Question 2: Parameterized Cursor with Exception Handling**
 
@@ -94,11 +96,12 @@ The program should display the employee details or an error message.
 - Insert sample salary values for the employees.
 - Use a parameterized cursor to accept a salary range as input and fetch employees within that range.
 - Implement exception handling to catch and display relevant error messages.
+### PROGRAM
+
+<img width="665" height="500" alt="image" src="https://github.com/user-attachments/assets/1ecc8a77-34da-4687-b963-723015c2ce1a" />
 
 **Output:**  
-The program should display the employee details within the specified salary range or an error message if no data is found.
-
----
+<img width="557" height="247" alt="image" src="https://github.com/user-attachments/assets/73a2d63d-558f-43b0-a843-282f01391bcc" />
 
 ### **Question 3: Cursor FOR Loop with Exception Handling**
 
@@ -113,11 +116,12 @@ The program should display the employee details within the specified salary rang
 - Insert sample department numbers for employees.
 - Use a cursor FOR loop to fetch and display employee names along with their department numbers.
 - Implement exception handling to catch the relevant exceptions.
+### PROGRAM
+
+<img width="581" height="352" alt="image" src="https://github.com/user-attachments/assets/6026ba7f-bc58-40e0-8a3d-dccec734e741" />
 
 **Output:**  
-The program should display employee names with their department numbers or the appropriate error message if no data is found.
-
----
+<img width="400" height="252" alt="image" src="https://github.com/user-attachments/assets/5df6e6c7-e357-4dac-8508-c329c11bc1b0" />
 
 ### **Question 4: Cursor with `%ROWTYPE` and Exception Handling**
 
@@ -132,11 +136,12 @@ The program should display employee names with their department numbers or the a
 - Insert sample data into the `employees` table.
 - Declare a cursor using `%ROWTYPE` to fetch complete rows from the `employees` table.
 - Implement exception handling to catch the relevant exceptions and display appropriate messages.
+### PROGRAM
+
+<img width="675" height="516" alt="image" src="https://github.com/user-attachments/assets/ec623713-43e6-4988-bb6e-3e5dc3b4e425" />
 
 **Output:**  
-The program should display employee records or the appropriate error message if no data is found.
-
----
+<img width="481" height="231" alt="image" src="https://github.com/user-attachments/assets/8b55a089-78dd-45c1-b904-756d3053c7dd" />
 
 ### **Question 5: Cursor with FOR UPDATE Clause and Exception Handling**
 
@@ -151,11 +156,12 @@ The program should display employee records or the appropriate error message if 
 - Insert sample data into the `employees` table with different department numbers.
 - Use a cursor with the `FOR UPDATE` clause to lock the rows of employees in a specific department and update their salary.
 - Implement exception handling to handle `NO_DATA_FOUND` or other errors that may occur.
+### PROGRAM
+
+<img width="567" height="467" alt="image" src="https://github.com/user-attachments/assets/d02c8b3d-28cf-4bda-a6d4-f390b1a2349f" />
 
 **Output:**  
-The program should update employee salaries and display a message, or it should display an error message if no data is found.
-
----
+<img width="497" height="232" alt="image" src="https://github.com/user-attachments/assets/2d035f0f-cbb4-475c-98cc-89caa71dd118" />
 
 ## RESULT
 Thus, the program successfully executed and displayed employee details using a cursor. 
