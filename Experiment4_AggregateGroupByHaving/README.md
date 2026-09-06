@@ -53,7 +53,7 @@ SELECT AVG(LENGTH(email)) AS avg_email_length_below_30 FROM customer WHERE city 
 
 
 **Question 2**
-
+---
 <img width="967" height="485" alt="image" src="https://github.com/user-attachments/assets/cedbabb9-3038-4a98-b9d6-35f1dde44838" />
 
 
